@@ -14,12 +14,10 @@ export default function Home() {
     setWidth(Width);
     console.log(Width);
     div.current.scrollLeft = 0;
-    console.log(div.current.scrollLeft);
   },[window.innerWidth]);
 
   const scrollHandler=(event)=>{
     setScroll(event.target.scrollLeft);
-    console.log(event.target.scrollLeft);
   }
 
   return (
